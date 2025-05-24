@@ -18,7 +18,7 @@ venv\Scripts\activate
 
 ### Si tienes GPU NVIDIA (CUDA 12.1 compatible):
 ```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 ```
 
 ### Si NO tienes GPU (solo CPU):
