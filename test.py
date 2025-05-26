@@ -20,6 +20,6 @@ pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
 # Prueba generando texto
 prompt = "Matrices de investigación para mejorar la calidad de tesis de ingeniería usando IA generativa:"
 
-result = pipe(prompt, max_new_tokens=800, do_sample=True, temperature=0.7, top_p=0.9)
+result = pipe(prompt, max_new_tokens=200, do_sample=True, temperature=0.7, top_p=0.9)
 
 print(result[0]['generated_text'])
