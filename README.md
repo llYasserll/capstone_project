@@ -50,6 +50,11 @@ Pega tu token cuando lo solicite.
 
 ---
 
+## O usa el token que encuentras en este link drive
+https://drive.google.com/file/d/13thbM9R2tpi8jaIou9n0FWQHHqrAGsCB/view?usp=drive_link
+
+---
+
 ### Instalar FastAPI y Uvicorn
 ```bash
 pip install uvicorn fastapi
