@@ -50,6 +50,13 @@ Pega tu token cuando lo solicite.
 
 ---
 
+### Instalar FastAPI y Uvicorn
+```bash
+pip install uvicorn fastapi
+```
+
+---
+
 ## 🧪 Uso del modelo
 
 Ejecuta el script principal con:
@@ -58,9 +65,13 @@ Ejecuta el script principal con:
 python test.py
 ```
 
+### Para consumir la API usa el comando y envia los parámetros
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
+
 Asegúrate de que el modelo descargado sea compatible con tu sistema (CUDA o CPU) y de haber iniciado sesión correctamente con Hugging Face.
 
 ---
 
-Instalar FastAPI y Uvicorn y usar 
-uvicorn main:app --host 0.0.0.0 --port 8000
+
