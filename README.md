@@ -80,3 +80,6 @@ Asegúrate de que el modelo descargado sea compatible con tu sistema (CUDA o CPU
 ---
 
 
+pip install python-docx pdfplumber
+
+
