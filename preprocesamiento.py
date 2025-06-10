@@ -5,11 +5,10 @@ import time
 from mistralai import Mistral
 
 
-api_key = ""  # API Key directamente aquí
+api_key = "bx9is5zsh1M9imucHxVdogfG0cdqQ8HN" 
 model = "mistral-small-latest"               
 
 client = Mistral(api_key=api_key)
-
 
 input_dir = r"C:\Users\Yasser\Desktop\capstone_project\tesis"  # Carpeta con PDFs
 output_file = "dataset_preprocesado_mistral.jsonl"             # Dataset final
